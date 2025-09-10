@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 
+What are you doing here?! you sneaky developer...
+-->
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#000" />
+  <meta name="description"
+    content="Muhammad Omair | Portfolio, Visit and know about me & my projects/designs. I value simple content structure, clean design patterns, and thoughtful interactions." />
+  <meta name="keywords"
+    content="Muhammad Omair,Muhammad Omair portfolio,Muhammad Omair Portfolio,MuhammadOmair,Muhammad Omair site,Muhammad Omair Site,Muhammad Omair me,Muhammad Omair web,Muhammad Omair github,MuhammadOmair site,MuhammadOmair uiverse,uiverse,Muhammad Omair uiverse,Muhammad Omair frontend developer,frontend developer,Muhammad Omair" />
+  <meta name="author" content="Muhammad Omair" />
+  <meta property="og:image" content="/src/png/Preview-card-min.png" />
+  <meta property="og:title" content="Muhammad Omair | Portfolio" />
+  <meta property="og:description"
+    content="Hi! My name is Omair. I'm a web developer and digital visual artist. Visit and know about me & my projects/designs. I value simple content structure, clean design patterns, and thoughtful interactions." />
+
+  <meta property="og:url" content=" " />
+  <meta property="og:site_name" content="Muhammad Omair Portfolio" />
+
+  <meta name="twitter:image:src" content="/src/png/Preview-card-min.png" />
+  <meta name="twitter:site" content="@Portfolio" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Muhammad Omair | Portfolio" />
+  <meta name="twitter:description"
+    content="Hi! My name is Omair. I'm a web developer and digital visual artist. Visit and know about me & my projects/designs. I value simple content structure, clean design patterns, and thoughtful interactions." />
+  <title>Muhammad Omair | Portfolio</title>
+  <link rel="icon" type="image/x-icon" href="src/png/main-favicon.png" />
+  <!-- aos cdn -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+  <!-- google fonts-->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Passions+Conflict&family=Orbitron&family=Fira+Code&family=Six+Caps" />
+
+<body class="body">
+  <audio loop="" id="audioPlayer" style="display: none">
+    <source src="src/mp3/preloader.mp3" type="audio/mp3" />
+  </audio>
+  <div id="preloader"></div>
+  <noscript>Allow Javascript</noscript>
+
+  <header>
+    <div class="cursor-inner" id="cursor-inner"></div>
+    <div class="cursor-outer" id="cursor-outer"></div>
+
+    <div class="navbar" id="navbar">
+      <div class="hey">Hey!</div>
+      <div class="logo" tabindex="0" aria-label="Muhammad Omair logo">
+        <div class="logo-top">
+          <img src="src/png/nav-avatar.png" alt="animation-head" id="nav-avatar" />
+        </div>
+      </div>
+      <div class="navbar-tabs" id="navbar-tabs">
+        <ul class="navbar-tabs-ul">
+          <li class="home activeThistab" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="100">
+            <a href="#home" tabindex="0" aria-label="Home menu button">
+              &#60;/Home&#62;
+            </a>
+          </li>
+
+          <li class="about" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="300">
+            <a href="#about" aria-label="about menu button">
+              &#60;/AboutMe&#62;
+            </a>
+          </li>
+
+          <li class="skills" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="500">
+            <a href="#skills" aria-label="skills menu button">
+              &#60;/Skills&#62;
+            </a>
+          </li>
+
+          <li class="projects" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="700">
+            <a href="#projects" aria-label="projects menu button">
+              &#60;/Projects&#62;
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- navbar tabs ends -->
+    </div>
+  </header>
+  <!-- header ends here -->
+
+  <main>
+    <!-- hamburger -->
+    <div class="hamburger" id="hamburger" data-aos="fade">
+      <div class="hamburgerbase">
+        <button id="hamburger-button" onclick="hamburgerMenu()" tabindex="0" aria-label="Menu Button">
+          <span class="burger-bar" id="burger-bar1"></span>
+          <span class="burger-bar" id="burger-bar2"></span>
+          <span class="burger-bar" id="burger-bar3"></span>
+        </button>
+      </div>
+    </div>
+    <!-- hamburger -->
+    <div class="mobiletogglemenu" id="mobiletogglemenu">
+      <ul class="mobile-navbar-tabs-ul" id="mobile-ul">
+        <li id="home-mobile-tab" class="mobile-navbar-tabs-li home activeThismobiletab" onclick="hidemenubyli()">
+          <a href="#home" tabindex="0" aria-label="Home menu button">
+            &#60;/Home&#62;
+          </a>
+        </li>
+
+        <li id="aboutme-mobile-tab" class="mobile-navbar-tabs-li about" onclick="hidemenubyli()">
+          <a href="#about" tabindex="0" aria-label="about menu button">
+            &#60;/AboutMe&#62;
+          </a>
+        </li>
+        <li id="skills-mobile-tab" class="mobile-navbar-tabs-li skills" onclick="hidemenubyli()">
+          <a href="#skills" tabindex="0" aria-label="skills menu button">
+            &#60;/Skills&#62;
+          </a>
+        </li>
+        <li id="projects-mobile-tab" class="mobile-navbar-tabs-li projects" onclick="hidemenubyli()">
+          <a href="#projects" tabindex="0" aria-label="projects menu button">
+            &#60;/Projects&#62;
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- mobile toggle menu ends -->
+
+    <section class="landing-page-container" id="home">
+      <div class="blob"></div>
+
+      <div class="text-content">
+        <article id="hello-friend" data-aos="fade-up" data-aos-delay="0">
+          <p class="jello">H</p>
+          <p class="jello">e</p>
+          <p class="jello">l</p>
+          <p class="jello">l</p>
+          <p class="jello">o</p>
+          <p class="jello">(</p>
+          <p class="jello">)</p>
+          <p class="jello">;</p>
+          &nbsp;
+          <p class="jello">I</p>
+          <p class="jello">'</p>
+          <p class="jello">m</p>
+        </article>
+        <article id="name" data-aos="fade-up" data-aos-delay="200">
+          <p class="jello">M</p>
+          <p class="jello">u</p>
+          <p class="jello">h</p>
+          <p class="jello">a</p>
+          <p class="jello">m</p>
+          <p class="jello">m</p>
+          <p class="jello">a</p>
+          <p class="jello">d</p>
+          &nbsp;
+          <p class="jello">O</p>
+          <p class="jello">m</p>
+          <p class="jello">a</p>
+          <p class="jello">i</p>
+          <p class="jello">r</p>
+          <p class="jello">.</p>
+        </article>
+
+        <article id="work" data-aos="fade-up" data-aos-delay="400">
+          <div>
+            <p class="jello">I</p>
+          </div>
+          <div>
+            <p class="jello">d</p>
+            <p class="jello">e</p>
+            <p class="jello">s</p>
+            <p class="jello">i</p>
+            <p class="jello">g</p>
+            <p class="jello">n</p>
+          </div>
+          <div>
+            <p class="jello">&</p>
+          </div>
+          <div>
+            <p class="jello">c</p>
+            <p class="jello">o</p>
+            <p class="jello">d</p>
+            <p class="jello">e</p>
+          </div>
+          <div>
+            <p class="jello">f</p>
+            <p class="jello">o</p>
+            <p class="jello">r</p>
+          </div>
+          <div>
+            <p class="jello">w</p>
+            <p class="jello">e</p>
+            <p class="jello">b</p>
+            <p class="jello">.</p>
+          </div>
+        </article>
+        <p id="info-para" data-aos="fade-up" data-aos-delay="600">
+          Enthusiastic Full-Stack Developer with a passion for solving problems and a keen eye for detail.<br />
+          <br />
+          Skilled in web development with a focus on honesty, simplicity, teamwork, and commitment.<br />
+          <br />
+          Thrives in diverse, multinational & multicultural environments and is eager to further develop skills in
+          full-stack development.
+        </p>
+        <div class="contact-btn-div" data-aos="fade-up" data-aos-delay="800">
+          <div class="setting-container" id="setting-container">
+            <input type="checkbox" id="switchforsetting" onclick="settingtoggle()" />
+
+            <label for="switchforsetting" class="needtobeinvert" id="labelforsetting" tabindex="0"
+              aria-label="settings for sound and appearance"></label>
+
+            <div class="visualmodetogglebuttoncontainer" id="visualmodetogglebuttoncontainer">
+              <input type="checkbox" id="switchforvisualmode" onclick="visualmode()" />
+              <label for="switchforvisualmode" id="labelforvisualmode" tabindex="0"
+                aria-label="switch appearance"></label>
+            </div>
+
+            <div class="soundtogglebuttoncontainer" id="soundtogglebuttoncontainer">
+              <input type="checkbox" id="switchforsound" onclick="playpause()" />
+              <label for="switchforsound" id="labelforsound" tabindex="0" aria-label="switch sound"
+                class="needtobeinvert"></label>
+            </div>
+          </div>
+          <!-- setting div ends -->
+        </div>
+        <!-- contact-btn-div -->
+      </div>
+
+    </section>
+    <!-- landing page ends here -->
+    <section class="about-section-container" id="about" data-aos="fade-up">
+      <div class="about-section">
+        <div class="section-heading">
+          <h2 class="section-heading-article" tabindex="0" aria-label="About me heading">
+            &#60;/AboutMe&#62;
+          </h2>
+          <p class="sectionHeadingP"></p>
+        </div>
+
+        <div class="info-dp-section">
+          <div class="about-info">
+            <p tabindex="0">
+              Hi! I'm Muhammad Omair, a Full-Stack Developer with a passion for crafting innovative web applications and
+              digital solutions. My journey into web development began during my time at University, where I fell in
+              love with building dynamic and user-centric websites.
+            </p>
+            <br />
+            <p tabindex="0">
+              From developing a pediatric health information system to creating a range of
+              web apps and personal projects, I thrive on turning ideas into
+              interactive experiences.
+            </p>
+            <br />
+            <p tabindex="0">
+              I specialize in using Python, Django, NextJs and ReactJS to build robust
+              and scalable solutions, and I’m always excited to tackle new
+              challenges and enhance user experiences through thoughtful
+              design and coding. Currently, I'm honing my skills at
+              Arbisoft as a Full-Stack Software Engineer, where I continue
+              to explore and innovate in the tech world.
+
+
+            </p>
+          </div>
+
+          <div class="dp" data-aos="fade-up">
+            <img src="src/webp/omair.png" alt="Muhammad Omair" tabindex="0" aria-label="image of Omair" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about section ends  -->
+
+    <section class="skills-section-container" id="skills">
+      <div class="skills-section">
+        <div class="section-heading" data-aos="fade-up">
+          <h2 class="section-heading-article" tabindex="0" aria-label="skills heading">
+            &#60;/Skills&#62;
+          </h2>
+          <p class="sectionHeadingP"></p>
+        </div>
+
+        <div class="frontend-dev-section">
+          <h3 class="frontend-dev-heading" data-aos="fade-up" tabindex="0"
+            aria-label="As a frontend a developer these are the skills i have">
+            Tech Stack
+          </h3>
+          <ul class="tech-stack-wrapper">
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/Python.png" alt="c language skill" class="tech-stack-logo" />
+              <span class="tooltip">Python</span>
+            </li>
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/django.png" alt="c++ language skill" class="tech-stack-logo" />
+              <span class="tooltip">Django</span>
+            </li>
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/next.png" alt="react skill" class="tech-stack-logo" />
+              <span class="tooltip">NextJs</span>
+            </li>
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/reactlogo.png" alt="react skill" class="tech-stack-logo" />
+              <span class="tooltip">REACT</span>
+            </li>
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/jslogo.png" alt="js skill" class="tech-stack-logo" />
+              <span class="tooltip">JavaScript</span>
+            </li>
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/postgres.png" alt="Postgres skill" class="tech-stack-logo" />
+              <span class="tooltip">Postgres</span>
+            </li>
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/mysql.png" alt="photoshop skill" class="tech-stack-logo" />
+              <span class="tooltip">MySQL</span>
+            </li>
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/strapi-icon.png" alt="Strapi skill" class="tech-stack-logo" />
+              <span class="tooltip">Strapi</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/htmllogo.png" alt="Html skill" class="tech-stack-logo" />
+              <span class="tooltip">HTML</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/csslogo.png" alt="css skill" class="tech-stack-logo" />
+              <span class="tooltip">CSS</span>
+            </li>
+
+            
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/bootstraplogo.png" alt="bootstrap skill" class="tech-stack-logo" />
+              <span class="tooltip">BOOTSTRAP</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/githublogo.png" alt="github skill" class="tech-stack-logo needtobeinvert" />
+              <span class="tooltip">GITHUB</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/gitlogo.png" alt="git skill" class="tech-stack-logo" />
+              <span class="tooltip">GIT</span>
+            </li>
+
+            
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/figmalogo.png" alt="figma skill" class="tech-stack-logo" />
+              <span class="tooltip">FIGMA</span>
+            </li>
+
+            
+
+            
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- skills section ends -->
+    <section class="projects-section-container" id="projects">
+      <div class="projects-section-div">
+        <div class="section-heading" data-aos="fade-up">
+          <h2 class="section-heading-article" tabindex="0" aria-label="My projects starts from here">
+            &#60;/Projects&#62;
+          </h2>
+          <p class="sectionHeadingP"></p>
+        </div>
+        <div class="project-boxes-div">
+          <div class="project-box-wrapper" data-aos="fade-up">
+            <div class="project-box project-box3" id="project-box3">
+              <div class="info-div">
+                <img src="src/webp/fitnescityICO.ico" alt="fitnescity website favicon" class="faviconforProject" />
+                <article class="ProjectHeading">Fitnescity</article>
+                <p class="ProjectDescription">
+                  This project is a comprehensive health and wellness web platform developed for Fitnescity, a company
+                  offering science-based health testing and tracking. I contributed to the frontend development using
+                  Next.js. The platform allows users to access and schedule lab tests like DEXA, VO2 Max, and blood
+                  panels across 700+ nationwide locations.
+                </p>
+                <div class="project-buttons">
+                  <a href="https://www.fitnescity.com/" target="_blank" class="cta" aria-label="Visit fitnescity live">
+                    <span>Live view</span>
+                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                      <path d="M1,5 L11,5"></path>
+                      <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div class="image-div">
+                <img src="src/webp/fitnescity.png" alt="fitnescity website preview image" />
+              </div>
+            </div>
+          </div>
+
+          <div class="project-box-wrapper" data-aos="fade-up">
+            <div class="project-box project-box3" id="project-box3">
+              <div class="info-div">
+                <img src="src/webp/fjico.png" alt="Fashion Jackson website favicon" class="faviconforProject" />
+                <article class="ProjectHeading">Fashion Jackson</article>
+                <p class="ProjectDescription">
+                  Fashion Jackson is a modern lifestyle and fashion blog platform built with Django REST Framework
+                  (backend) and Next.js (frontend). It features curated content on style, beauty, travel, and product
+                  reviews with integrated affiliate shopping and dynamic editorial updates.
+                </p>
+                <div class="project-buttons">
+                  <a href="https://fashionjackson.com/" target="_blank" class="cta"
+                    aria-label="Visit Fashion Jackson live">
+                    <span>Live view</span>
+                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                      <path d="M1,5 L11,5"></path>
+                      <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div class="image-div">
+                <img src="src/webp/fj.png" alt="Fashion Jackson website preview image" />
+              </div>
+            </div>
+          </div>
+
+          <div class="project-box-wrapper" data-aos="fade-up">
+            <div class="project-box project-box3" id="project-box3">
+              <div class="info-div">
+                <img src="src/webp/equiemICO.svg" alt="Equiem website favicon" class="faviconforProject" />
+                <article class="ProjectHeading">Equiem</article>
+                <p class="ProjectDescription">
+                  Equiem is a smart building management platform built with Django REST Framework and Next.js. I
+                  contributed to both backend and frontend, helping deliver integrated tools for tenant engagement,
+                  operations, flex space management, and data-driven real estate insights. The platform powers seamless,
+                  human-centric workplace experiences across global commercial properties.
+                </p>
+                <div class="project-buttons">
+                  <a href="https://getequiem.com/" target="_blank" class="cta" aria-label="Visit Equiem live">
+                    <span>Live view</span>
+                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                      <path d="M1,5 L11,5"></path>
+                      <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div class="image-div">
+                <img src="src/webp/equiemi.png" alt="Equiem website preview image" />
+              </div>
+            </div>
+          </div>
+
+          <div class="project-box-wrapper" data-aos="fade-up">
+            <div class="project-box project-box3" id="project-box3">
+              <div class="info-div">
+                <img src="src/webp/invfavicon.ico" alt="Invaluable website favicon" class="faviconforProject" />
+                <article class="ProjectHeading">Invaluable</article>
+                <p class="ProjectDescription">
+                  Worked on Invaluable’s auction marketplace platform, contributing to the frontend using React and
+                  Next.js. Implemented responsive UI components and dynamic interfaces to enhance user experience across
+                  curated collections, auction listings, and real-time bidding. Backend was handled by the Invaluable
+                  team.
+                </p>
+                <div class="project-buttons">
+                  <a href="https://www.invaluable.com/" target="_blank" class="cta" aria-label="Visit Invaluable live">
+                    <span>Live view</span>
+                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                      <path d="M1,5 L11,5"></path>
+                      <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div class="image-div">
+                <img src="src/webp/inv.png" alt="Invaluable website preview image" />
+              </div>
+            </div>
+          </div>
+
+          <div class="project-box-wrapper" data-aos="fade-up">
+            <div class="project-box project-box3" id="project-box3">
+              <div class="info-div">
+                <img src="src/webp/ftICO.webp" alt="FT Technologies website favicon" class="faviconforProject" />
+                <article class="ProjectHeading">FT Technologies</article>
+                <p class="ProjectDescription">
+                  Built FT Technologies’ website using Next.js, Tailwind CSS, and Django REST Framework. Contributed to
+                  both frontend and backend, showcasing rugged wind sensors, enabling dynamic content management,
+                  responsive design, and seamless product inquiries for global industrial and environmental monitoring
+                  applications.
+                </p>
+                <div class="project-buttons">
+
+                  <a href="https://fttechnologies.com/" target="_blank" class="cta"
+                    aria-label="Visit FT Technologies live">
+                    <span>Live view</span>
+                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                      <path d="M1,5 L11,5"></path>
+                      <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div class="image-div">
+                <img src="src/webp/ft.png" alt="FT Technologies website preview image" />
+              </div>
+            </div>
+          </div>
+
+          <div class="project-box-wrapper" data-aos="fade-up">
+            <div class="project-box project-box3" id="project-box3">
+              <div class="info-div">
+                <img src="src/webp/hippaiICO.png" alt="Hippocratic AI website favicon" class="faviconforProject" />
+                <article class="ProjectHeading">Hippocratic AI</article>
+                <p class="ProjectDescription">
+                  This project centers around Hippocratic AI, a platform for building safety-first generative AI agents
+                  for healthcare. I worked on the frontend using Next.js, with content managed via Strapi, enabling
+                  dynamic delivery of conversational AI tools for providers, payors, and pharma to improve clinical
+                  workflows and patient engagement.
+                </p>
+                <div class="project-buttons">
+
+                  <a href="https://www.hippocraticai.com/" target="_blank" class="cta"
+                    aria-label="Visit Hippocratic AI live">
+                    <span>Live view</span>
+                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                      <path d="M1,5 L11,5"></path>
+                      <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div class="image-div">
+                <img src="src/webp/hippai.png" alt="Hippocratic AI website preview image" />
+              </div>
+            </div>
+          </div>
+
+          <div class="project-box-wrapper" data-aos="fade-up">
+            <div class="project-box project-box3" id="project-box3">
+              <div class="info-div">
+                <img src="src/webp/alithiaIco.png" alt="Alithia Knowledge website favicon" class="faviconforProject" />
+                <article class="ProjectHeading">Alithia Knowledge</article>
+                <p class="ProjectDescription">
+                  Alithia Knowledge is an AI-driven platform by Alithia Labs that offers streamlined access to diverse
+                  information sources through intelligent, customizable agents. I contributed to the frontend
+                  development using Next.js, focusing on building interactive interfaces for agent management, user
+                  queries, and real-time knowledge exploration.
+                </p>
+                <div class="project-buttons">
+                  <a href="https://dev.alithia.ai/" target="_blank" class="cta"
+                    aria-label="Visit Alithia Knowledge live">
+                    <span>Live view</span>
+                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                      <path d="M1,5 L11,5"></path>
+                      <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div class="image-div">
+                <img src="src/webp/Alithia.png" alt="Alithia Knowledge website preview image" />
+              </div>
+            </div>
+          </div>
+          <!-- ---------------------- -->
+
+          <div class="project-box-wrapper" data-aos="fade-up">
+            <div class="project-box project-box1" id="project-box1">
+              <div class="info-div">
+                <img src="src/webp/axocean-favicon.webp" alt="Axocean website favicon" class="faviconforProject" />
+                <article class="ProjectHeading">AXOCEAN</article>
+                <p class="ProjectDescription">
+                  This e-commerce website allows users to browse and choose their favorite product designs, then
+                  redirects them to Flipkart for purchase. I worked on the frontend using Next.js, and on the backend
+                  using Django REST Framework (DRF) to manage products, user interactions, and dynamic content
+                  efficiently.
+                </p>
+                <div class="project-buttons">
+                 
+                  <a href="https://www.vinodjangid.site/AXOCEAN/" target="_blank" class="cta"
+                    aria-label="Visit axocean live">
+                    <span>Live view</span>
+                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                      <path d="M1,5 L11,5"></path>
+                      <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div class="image-div">
+                <img src="src/webp/AXOCEAN-project.webp" alt="Axocean website preview image" />
+              </div>
+            </div>
+          </div>
+
+          <div class="project-box-wrapper" data-aos="fade-up">
+            <div class="project-box project-box5" id="project-box5">
+              <div class="info-div">
+                <img src="src/webp/cropped-1086600-192x192.webp" alt="comickaze website favicon"
+                  class="faviconforProject" />
+                <article class="ProjectHeading">ComicKaze</article>
+                <p class="ProjectDescription">
+                  ComicKaze is an e-commerce website I built as a freelancer using Django for the backend and React for
+                  the frontend. It specializes in selling anime merchandise, offering a smooth and dynamic shopping
+                  experience.
+                </p>
+                <div class="project-buttons">
+                  <a href="https://comickaze.in" target="_blank" class="cta" aria-label="Visit Comickaze live">
+                    <span>Live view</span>
+                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                      <path d="M1,5 L11,5"></path>
+                      <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div class="image-div">
+                <img src="src/webp/comickaze-preview.webp" alt="comickaze website preview image" />
+              </div>
+            </div>
+          </div>
+
+          <!-- ---------------------- -->
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- main ends here -->
+
+  <footer id="footer">
+    <button class="fas" id="backtotopbutton" onclick="scrolltoTopfunction()">
+      <article aria-label="Back to top">&#8592;BACK TO TOP</article>
+    </button>
+    <div class="footer-background">
+      <div class="footer-blob"></div>
+    </div>
+    <div class="footer-foreground">
+      <div class="footercontainer">
+        <div class="two-words">
+          <article tabindex="0" aria-label="Learning, Living, and Leveling Up, my quote">
+            "Learning, Living, and Leveling Up."
+          </article>
+        </div>
+        <div class="social-media-container">
+          <div class="getintouch-heading">
+            <article>GetinTouch();</article>
+          </div>
+          <div class="logos">
+
+            <a href="https://github.com/omair-muhammad" target="_blank" aria-label="My github"><svg
+                viewBox="0 0 496 512" class="SocialHandle">
+                <path
+                  d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+              </svg></a>
+
+          </div>
+        </div>
+        <div class="footer-avatar-container">
+          <img src="src/png/footer-avatar-omair.png" alt="animation-head" class="footer-avatar-img"
+            id="footer-wala-avatar" />
+          <div class="footer-avatar-face">
+            <div class="footer-avatar-eye footer-left-eye">
+              <div class="footer-pupil"></div>
+            </div>
+            <div class="footer-avatar-eye footer-right-eye">
+              <div class="footer-pupil"></div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <article>
+            Design & Built by Muhammad Omair
+            &#169; twentytwentyfive
+          </article>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer ends here -->
+
+  <script src="main.js"></script>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <script>
+    function openURL() {
+      var url = "src/pdf/Muhammad Omair Resume.pdf";
+
+      window.open(url, "_blank");
+    }
+  </script>
+
+  <script>
+    const cursorInner = document.getElementById("cursor-inner");
+    const cursorOuter = document.getElementById("cursor-outer");
+    const links = document.querySelectorAll("a,label,button");
+
+    document.addEventListener("mousemove", function (e) {
+      const posX = e.clientX;
+      const posY = e.clientY;
+
+      cursorInner.style.left = `${posX}px`;
+      cursorInner.style.top = `${posY}px`;
+
+      cursorOuter.animate(
+        {
+          left: `${posX}px`,
+          top: `${posY}px`,
+        },
+        { duration: 500, fill: "forwards" }
+      );
+
+      links.forEach((link) => {
+        link.addEventListener("mouseenter", () => {
+          cursorInner.classList.add("hover");
+          cursorOuter.classList.add("hover");
+        });
+        link.addEventListener("mouseleave", () => {
+          cursorInner.classList.remove("hover");
+          cursorOuter.classList.remove("hover");
+        });
+      });
+    });
+  </script>
+</body>
+
+</html>
